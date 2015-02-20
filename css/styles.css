@@ -1,0 +1,14 @@
+body {
+  /*background-image: url("images/bg-body.jpg");*/
+  /*background-image: url("images/bg.jpg");*/
+}
+
+.container {
+  /*background-color: hsla(0, 100%, 100%, 0.85);*/
+  /*background-image: url("images/bg.jpg");*/
+  /*color: black;*/
+}
+
+.result {
+  display: none;
+}

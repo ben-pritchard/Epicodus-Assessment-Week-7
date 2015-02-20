@@ -6,5 +6,14 @@ var Pizza = {
 }
 
 $(document).ready(function() {
-  
+  $("form#order-pizza").submit(function(event) {
+    event.preventDefault();
+    var pizza = Object.create(Pizza);
+
+    pizza.diameter = parseInt($("#diameter").val());
+
+    $(".result").show();
+
+    $(".slices").text(pizza.slices(pizza.diameter));
+  });
 });
