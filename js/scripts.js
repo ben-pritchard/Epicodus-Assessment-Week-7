@@ -17,6 +17,6 @@ $(document).ready(function() {
     $(".result").show();
     $(".toppings").text(pizza.toppings);
     $(".slices").text(pizza.slices(pizza.diameter));
-
+    $(".cost").text(pizza.diameter);
   });
 });

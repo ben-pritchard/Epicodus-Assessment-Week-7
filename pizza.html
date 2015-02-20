@@ -16,19 +16,14 @@
       <h3>What kind of pizza would you like to order?</h3>
 
       <form id="order-pizza">
-        <div class="form-group col-xs-4">
-          <label for="diameter" class="control-label">Diameter</label>
-          <div class="input-group">
-            <input type="number" id="diameter" class="form-control">
-            <span class="input-group-addon">inches</span>
+        <div class="row">
+          <div class="form-group col-xs-4">
+            <label for="diameter" class="control-label">Diameter</label>
+            <div class="input-group">
+              <input type="number" id="diameter" class="form-control">
+              <span class="input-group-addon">inches</span>
+            </div>
           </div>
-        </div>
-        <div class="col-xs-8">
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
         </div>
 
         <div class="form-group">
@@ -37,7 +32,7 @@
             <div class="radio">
               <label>
                 <input type="radio" name="toppings" value="cheese" checked="">
-                Cheese
+                Cheese (keep in mind we have the best... SHREDDER!)
               </label>
             </div>
             <div class="radio">
@@ -54,7 +49,10 @@
 
       <div class="result">
           <h2>Order Details:</h2>
-          <h3>Your <span class="toppings"></span> pizza will be ready before you can say "Cowabunga!" and will have <span class="slices"></span> slices!</h3>
+          <h3>Toppings: <span class="toppings"></span></h3>
+          <h3>Number of Slices: <span class="slices"></span></h3>
+          <h3>Cost: $<span class="cost"></span></h3>
+          <h3>Your pizza will be ready before you can say "Cowabunga!"</h3>
       </div>
 
     </div>
