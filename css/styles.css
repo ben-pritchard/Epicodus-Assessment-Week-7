@@ -1,14 +1,44 @@
+html {
+  height: 100%;
+}
+
 body {
   /*background-image: url("images/bg-body.jpg");*/
-  /*background-image: url("images/bg.jpg");*/
+  background-image: url("images/bg.jpg");
+  height: 100%;
 }
 
 .container {
-  /*background-color: hsla(0, 100%, 100%, 0.85);*/
   /*background-image: url("images/bg.jpg");*/
-  /*color: black;*/
+  background-color: hsla(0, 100%, 100%, 0.75);
+  min-height: 100%;
+  color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  color: black;
 }
 
 .result {
   display: none;
+  /*margin-right: auto;
+  margin-left: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: hsla(0, 100%, 100%, 0.75);*/
+}
+
+.form-control {
+  height: 50px;
 }
